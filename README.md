@@ -8,6 +8,29 @@ The dataset used in this project is publicly available on Kaggle.
 
 You can find the dataset [here](https://www.kaggle.com/datasets/dorothyjoel/us-regional-sales).
 
+## Database Schema
+
+The dataset used in this project has the following table structure:  
+
+| **Column Name**     | **Data Type**  |
+|----------------------|----------------|
+| `OrderNumber`        | `varchar(20)`  |
+| `Sales_Channel`      | `varchar(20)`  |
+| `WarehouseCode`      | `varchar(20)`  |
+| `ProcuredDate`       | `date`         |
+| `OrderDate`          | `date`         |
+| `ShipDate`           | `date`         |
+| `DeliveryDate`       | `date`         |
+| `CurrencyCode`       | `varchar(10)`  |
+| `_SalesTeamID`       | `text`         |
+| `_CustomerID`        | `text`         |
+| `_StoreID`           | `text`         |
+| `_ProductID`         | `text`         |
+| `Order_Quantity`     | `int`          |
+| `Discount_Applied`   | `double`       |
+| `Unit_Cost`          | `double`       |
+| `Unit_Price`         | `double`       |
+
 
 ## Key Features
 #### 1. Comprehensive Sales Insights 
